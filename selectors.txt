@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+P { text-align: center; color: red;}
+#text {
+text-align: left; color: blue; }
+.styl{ text-align: right; color: green; }
+h1, em, b{ background-color: lightblue; color: green;}
+</style>
+</head>
+<body>
+<p>This is an example for simple element selector</p>
+<p id="text">This is an example for simple id selector</p>
+<p class="styl">This is an example for simple class selector</p>
+<h1>This is an example for Grouping selector </h1>
+<em>This is an example for Grouping selector </em>
+<b>This is an example for Grouping selector </b> </body>
+</html>

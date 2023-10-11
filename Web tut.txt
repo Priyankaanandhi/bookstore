@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<body bgcolor="skyblue">
+
+<form action="">
+First name: <br>
+<input type="text" id="fname" name="fname"><br>
+Last name: <br>
+<input type="text" id="Iname" name="Iname"><br><br>
+<input type="submit" value="Submit">
+</form>
+
+<p>
+Password:<br> <input type="password" id="pwd" name="pwd"><br><br>
+<p>
+
+<h2>HTML Forms</h2>
+<form action="" method="post">
+<fieldset>
+<legend> Hobbies </legend>
+<label> Choose your Hobbies: </label> <br>
+<input type="checkbox" id="paint" name="paint" value="">
+<label >Painting</label><br>
+<input type="checkbox" id= "sketch" name="sketch" value="">
+<label>Sketching</label><br> <input type="checkbox" id="music" name="music" value="">
+<label >Listening to Music</label><br>
+<input type="submit" value="Click Me" >
+</fieldset>
+</form>
+
+<h2>HTML Forms</h2>
+<form action="">
+<label for="Phonenum">First name: </label> <br><br> <input type="text" id="Phonenum" name="Phonenum" value=""> <br><br>
+Enter Age(1 to 18):
+<input type="text" id="age" name="age" value="" min="1" max="18"> <br>
+<br>
+Volume:
+<input type="range" id="volume" name="volume" value="" min="0" max="50"> <br><br>
+Choose color:
+<input type="color" id="color" name="color" value="" min="0" max="50"> <br><br>
+Choose file:
+<input type="file" id="f" name="f" value="" min="0" max="50"> <br><br>
+<input type="button" value="Click Me!">
+</form>
+
+<p>Text with no style<\p>
+
+<p style ="font-size:30pt;
+           font-family: Times New Roman;
+           color: green;">
+text with style</p>
+
+<h2>HTML Forms</h2>
+<form action="">
+| Date:
+<input type="date" id="dat" name="dat" value=""> <br><br>
+Date before 30th century:
+<input type="date" id="dat" name="dat" value="" max="3000-12-31"> <br><br>
+Month:
+<input type="month" id="mo" name="mo" value=""> <br><br>
+Week:
+<input type="week" id="we" name="we" value=""> <br><br>
+Time:
+<input type="time" id="ti" name="ti" value=""> <br><br>
+<input type="button" value="Click Me!">
+</form>
+
+
+<h1>The audio element</h1>
+<p>Click on the play button to play a sound:</p>
+<audio controls>
+<source src="U1 Mass Bgm.mp3" type="audio/ogg"> <source src="horse.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+<h1>The video element</h1>
+<video width="320" height="240" controls autoplay><source src="U1.mp4" type="video/mp4"> Your browser does not support the video tag. </video>
+</body>
+</html>
